@@ -1,5 +1,5 @@
 # Today I Learned
 
-## 나 혼자 집에서 복습하는 곳 💻
+## 하루에 하나씩 배운 것을 올리는 곳 입니다 ✏️
 
-Notion 필기를 기반으로 합니다
+![GIF](https://t1.daumcdn.net/cfile/blog/9938C64F5A9EEA401B)
