@@ -1,4 +1,4 @@
-![python](https://upload.wikimedia.org/wikipedia/commons/7/72/Python_logo_1990s.svg)
+
 # 프로그래밍
 
 ## Programming

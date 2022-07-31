@@ -1,6 +1,6 @@
-# Python
+![python](https://upload.wikimedia.org/wikipedia/commons/7/72/Python_logo_1990s.svg)
 
-![파이썬](https://image.zdnet.co.kr/2019/04/24/imc_djLvEIALKXPuYcws.jpg)
+
 
 1. [프로그래밍이란?](Programming.md)
 2. [자료형](자료형.md)
