@@ -1,7 +1,7 @@
 ![python](https://upload.wikimedia.org/wikipedia/commons/7/72/Python_logo_1990s.svg)
-## 들어가기에 앞서
+# 프로그래밍
 
-### Programming
+## Programming
 
 프로그래밍에서 개념을 명확히 알고 그것을 **구조화** 하는 것이 중요
 
@@ -12,13 +12,11 @@
     - 정리가 잘된 서랍
 
 
-### 개념 구조화
+## 개념 구조화
 
 - 개념의 **정의**(나만의 정의)
 - 개념의 **포함 관계**
 - 두 개념의 **차이점**
-
-*개념을 구조화하여 정리 해놓는게 중요함!! (for 기술면접)
 
 
 ---
@@ -37,15 +35,15 @@
     - 컴퓨터에게 일을 시키기 위해 프로그램을 만드는 행위
 
 
-### 용어 정리
+## 용어 정리
 - programmer : 프로그램을 만드는 사람(소프트웨어 **개발자**)
 - software : 엄밀히 따지면 다르지만 **프로그램**과 유사한 의미로 사용
 - 코딩 : 엄밀히 따지면 다르지만 **프로그래밍**과 유사한 의미로 사용
 
 
-### 프로그래밍 언어란?
+## 프로그래밍 언어란?
 
-한국에서는 한국어! 미국에서는 영어!
+- 한국에서는 한국어! 미국에서는 영어!
 
 - 컴퓨터는?
 - 컴퓨터는 기계어로 소통!
@@ -65,14 +63,14 @@
 - 기본적인 규칙과 문법이 존재
 
 
-**소스코드**
+### 소스코드
 
 - 프로그래밍 언어로 작성된 프로그램
 
-![이미지파일](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/560cb6e0-28d2-4138-8427-77818e124854/KakaoTalk_20220718_175457261.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220719%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220719T145058Z&X-Amz-Expires=86400&X-Amz-Signature=852d4868585f4505faa620c69979b42af58fbdfc59c835754a95bbaf78c8343a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22KakaoTalk_20220718_175457261.jpg%22&x-id=GetObject)
+![이미지파일](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/560cb6e0-28d2-4138-8427-77818e124854/KakaoTalk_20220718_175457261.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220731T145207Z&X-Amz-Expires=86400&X-Amz-Signature=e1ec205400fbdb5f9014f1a5277e3de0e44cb85f81dc184740965d261d840eb2&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22KakaoTalk_20220718_175457261.jpg%22&x-id=GetObject)
 
 
-**번역기(interpreter or compiler)**
+### 번역기(interpreter or compiler)
 
 - 소스코드를 컴퓨터가 이해할 수 있는 기계어로 번역
 - 파이썬은 인터프리터 사용
@@ -107,12 +105,29 @@
 - jupiter notebook ⇒ 문법 학습을 위한 최적의 도구
 - 파이참
 
-[기초 문법](https://www.notion.so/08ef7fe959394dfca4266af7ca620d40)
+---
+# 기본
+
+### 스타일 가이드
+
+- 맞춤법을 지키는 것 (협업)
+- 참고
+  - [PEP8](https://peps.python.org/pep-0008/)
+
+### 들여쓰기
+
+- 공백(space 4칸) 사용을 권장(Tab과 혼용 X)
+
+### 주석
+
+- 코드에 대한 설명
+- 사람과 사람의 소통을 위함(only for 개발자)
+- 주석을 다는 습관을 들이는 것이 좋음 (협업!!)
 
 
 ---
 
-## 정리
+# 정리
 
 
 ## 우리가 프로그래밍을 하는 이유
@@ -123,17 +138,15 @@
     - **확장성**
     - style guide가 필요한 이유(**가독성**)
 
-
 ## Programming?
-프로그래밍에는 **저장**과 **처리**가 있다
+- 프로그래밍에는 저장과 처리가 있다
 
-### 저장                                  
-- 변수                                    
-- 컨테이너                                
-    => **자료구조**                          
+- 저장
+  - 변수
+  - 컨테이너
+    - 자료구조
 
-### 처리
-- 연산자
-- if, while, for
-    =>**알고리즘**
-  
+- 처리
+  - 연산자
+  - if, while, for 
+    - 알고리즘
