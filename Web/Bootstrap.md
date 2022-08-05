@@ -6,10 +6,11 @@
 ## 사용방법
 
 ```html
-<title>
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" r
 el="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBv
 ApHHNl/vI1Bx" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
 
 <body>
 
@@ -46,6 +47,7 @@ js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv
     - auto - auto
         - 1rem == 16px
 
+<결과>
 ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5bc7df82-61db-471b-b72e-e4a31c2aeb86/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220804T103309Z&X-Amz-Expires=86400&X-Amz-Signature=d7070dd13438098d3461bd10bfd5f8c19742680c73ef8c80586996c35a956c72&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ```html
@@ -58,7 +60,7 @@ js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv
 	<div class="ms-auto box">오른쪽정렬</div> <!--오른쪽 정렬-->
 </body>
 ```
-
+<결과>
 ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/44083d05-8594-4974-9347-3d248e78f2f1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220804T103330Z&X-Amz-Expires=86400&X-Amz-Signature=5695fec614a6938e4d49da24a1b84d5e37481a2a0939d7ff253d509d5e8a7c12&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ### Color
@@ -88,7 +90,7 @@ js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv
 	<p class="text-end">text-end</p>
 </body>
 ```
-
+<결과>
 ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/742accb9-986b-4df1-9467-51ed1562a800/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220804T103549Z&X-Amz-Expires=86400&X-Amz-Signature=dc3d4573ee1c5edb97fdf4050b4ad57694fd8431816dd50212fc26c7a05ce89c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ```html
@@ -102,6 +104,7 @@ js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv
 	<p class="fst-italic">italic text</p>
 </body>
 ```
+<결과>
 
 ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/65912892-5e25-4d5a-9aee-e54e35cd7dab/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220804T103606Z&X-Amz-Expires=86400&X-Amz-Signature=a4b1f7b943808af0461380404c5ca9045347b8a3608478d438b6cbcd32ce825b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
@@ -115,7 +118,7 @@ js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv
 	<div class="box fixed-bottom">fixed bottom</div>
 </body>
 ```
-
+<결과>
 ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/65dd3a01-520c-4e26-93b0-863529b19782/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220804T103411Z&X-Amz-Expires=86400&X-Amz-Signature=9cd349df32b72caf97f2ac5eaa37cdbc80a8484f4789a790bea6d3f634dcd8b9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ```html
@@ -129,7 +132,7 @@ js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv
 	</div>
 </body>
 ```
-
+<결과>
 ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9171e14a-c6aa-4285-9d42-25d126e403ce/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220804T103639Z&X-Amz-Expires=86400&X-Amz-Signature=54f504dae1aa4072551acb7c7d8e741eb8615cac3002ec2e915b008458314e89&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ### Display
@@ -142,6 +145,7 @@ js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv
 	<div class="d-none p-2 text-bg-dark">d-inline</div>
 </body>
 ```
+<결과>
 
 ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2bff16ca-14d2-4c21-ace3-2a75d516d9c9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220804T103658Z&X-Amz-Expires=86400&X-Amz-Signature=90f443adb919b89f751cfb114849ffd72edad824c7fac0f968925170a3c3aec7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
