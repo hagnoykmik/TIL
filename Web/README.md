@@ -1,4 +1,6 @@
-![](https://images.velog.io/images/arsshavin/post/d9b5e832-cec3-4c14-b537-dc0e7262f1eb/HTML&CSS.png)
+
+<img src="https://images.velog.io/images/arsshavin/post/d9b5e832-cec3-4c14-b537-dc0e7262f1eb/HTML&CSS.png" width=50%>
+
 # Web
 
 1. [Web](Web.md)
