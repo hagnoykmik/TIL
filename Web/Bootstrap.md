@@ -7,7 +7,7 @@
 
 ```html
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" r
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
 el="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBv
 ApHHNl/vI1Bx" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
@@ -173,20 +173,20 @@ js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv
 ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9d17fc11-90e6-46e7-b59a-62c3dad5bb8a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220804T103715Z&X-Amz-Expires=86400&X-Amz-Signature=2c12d05d83e11adae2d7dfda43efa2fe834f0e883d6d1b92675514fa14a7e515&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 - 기본 요소
-    - column :실제 컨텐츠를 포함하는 부분
-    - gutter : 칼럼과 칼럼 사이의 공간(사이 간격)
-    - container : column들을 담고 있는 공간
+  - column :실제 컨텐츠를 포함하는 부분
+  - gutter : 칼럼과 칼럼 사이의 공간(사이 간격)
+  - container : column들을 담고 있는 공간
 
 - 반드시 기억해야 할 2가지!
-    1. 12개의 column
-    2. 6개의 grid breakpoints
+  1. 12개의 column
+   2. 6개의 grid breakpoints
 
 ### Grid breakpoint
 
 - 크기에 따라서 비율이 변경되도록 설정
 
 ```html
-<h2 class="text-center">Grid breakpoints</h2>
+<h2 class="conteiner text-center">Grid breakpoints</h2>
     <div class="row">
       <div class="box col-2 col-sm-8 col-md-4 col-lg-5">1</div>
       <div class="box col-8 col-sm-2 col-md-4 col-lg-2">2</div>
@@ -194,27 +194,27 @@ js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv
     </div>
 ```
 
-### Nesting
-
-- ?
-
-```html
-<h2 class="text-center">nesting</h2>
-    <div class="row">
-      <div class="box col-6">
-        <div class="row">
-          <div class="box col-3">1</div>
-          <div class="box col-3">2</div>
-          <div class="box col-3">3</div>
-          <div class="box col-3">4</div>
-        </div>
-      </div>
-      <div class="box col-6">1</div>
-      <div class="box col-6">2</div>
-      <div class="box col-6">3</div>
-    </div>
-```
-
 ### Offset
 
 - 비우고 싶을 때 사용
+```html
+<body>
+  <!-- 큰 박스 -->
+  <div class="container">
+    <!-- 박스 내부의 행 -->
+    <div class="row">
+      <!-- 행 내부의 열 (12)-->
+      <div class="col">
+        <h1>Bootstrap Grid System 3</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- offset-4 = 칸 왼쪽에 빈칸 4칸을 주세요 -->
+      <div class="item col-4          col-md-4 offset-md-4 col-lg-5 offset-lg-7"><p>item1</p></div>
+      <div class="item col-4 offset-4 col-md-4 offset-md-0 offset-lg-2 col-lg-8"><p>item2</p></div>
+    </div>
+      <!-- offset이 유지되니까 0으로 초기화 -->
+      <!-- 미만인 경우에는 기본값(col-) -->
+      <!-- 뒤는 신경x col을 줄이면 알아서 여백이 생김 -->
+```
