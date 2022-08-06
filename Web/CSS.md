@@ -171,6 +171,7 @@ h1 {
 2. 우선순위
   - 인라인 > id > class > <div> 태그 이름 > 상속
   - 주의 : 상속은 항상 마지막 순위!
+  
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/19e76baa-bb93-44ea-a0b2-2b3bff3c92a6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220806%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220806T093217Z&X-Amz-Expires=86400&X-Amz-Signature=617eab8ab52b0cecad3a1f002b9eb1ed53c21ac3eef69534a1fc246f90a2019a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ### CSS 상속
@@ -297,6 +298,7 @@ span, a ,img, input, label, b, em, i, strong
 #### float이 나온 배경
 - normal flow로는 우리가 원하는 레이아웃을 만들지 못한다
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ac53f2a7-298c-49bb-9bdb-15ab396233ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220806%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220806T113231Z&X-Amz-Expires=86400&X-Amz-Signature=d925b6d6e94b5164a8ec40dac0c25db5df8e08b1c9f107668ab26706595ef9c2&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+
 - 어떤 요소를 감싸는 형태로 배치는?
 - 좌/우측에 배치는?
 
@@ -346,14 +348,14 @@ span, a ,img, input, label, b, em, i, strong
   - nowrap(기본값)
 - flex-flow
   - flex direction-flex wrap
-- justify-content(main axis)
+- justify-content(main axis을 기준으로 꼬치안에 떡 정렬)
   - flex-start
   - flex-end
   - center
   - space-between
   - space-around
   - space-evenly
-- align-content(cross axis가 여러개)
+- align-content(cross axis가 여러개일때 꼬치자체의 위치 정하기)
   - flex-start
   - flex-end
   - center
@@ -372,9 +374,12 @@ span, a ,img, input, label, b, em, i, strong
   - flex-end
   - center
 - 기타 속성
-  - flex-grow 남은 영역을 아이템에 분배
-  - order 배치 순서
+  - flex-grow 남은 영역을 아이템에 분배(각 칸이 어느정도 여백을 가질지)
+  - order 배치 순서(처음엔 0이고 커질수록 뒤(->)로 간다)
   ```html
-  <div class="flex_item grow-1 order-3>
-  
+  <div class="flex_item grow-1 order-3">1</div>
+  <div class="flex_item grow-1">2</div>
+  <div class="flex_item order-1">3</div>
+  <div class="flex_item order-2">4</div>
   ```
+  
