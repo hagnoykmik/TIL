@@ -1,5 +1,5 @@
 
-<img src="https://images.velog.io/images/arsshavin/post/d9b5e832-cec3-4c14-b537-dc0e7262f1eb/HTML&CSS.png" width=50%>
+<img src="https://images.velog.io/images/arsshavin/post/d9b5e832-cec3-4c14-b537-dc0e7262f1eb/HTML&CSS.png" width=30%>
 
 # Web
 
