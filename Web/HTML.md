@@ -87,7 +87,7 @@ Hyper Text Markup Language
 웹사이트 코드를 사용자가 보게되는 웹사이트로 바꾸는 과정
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ee72f98e-016f-4ddf-91d4-d7b445642b8e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220802T131220Z&X-Amz-Expires=86400&X-Amz-Signature=d0d5cf560acc052338acc37271f8cef269f444dd07947ba4c32ac1147487680a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
-### DON(Document Object Model) Tree
+### DOM(Document Object Model) Tree
 - 텍스트 파일인 HTML문서를 브라우저에서 렌더링 하기 위한 구조
   - HTML은 글이고 실현은 브라우저가 한다
   - 자식과 부모 구조로 트리 형태로 이루어져 있다
@@ -124,7 +124,7 @@ Hyper Text Markup Language
 ```
 
 ### form
-- <form>은 사용자로부터 정보(데이터)를 입력받기 위해 쓰는 태그
+- `<form>`은 사용자로부터 정보(데이터)를 입력받기 위해 쓰는 태그
 - 사용자가 브라우저를 통해 서버(컴퓨터)에 데이터를 제출하기 위해 사용하는 태그
   - 로그인, 게시판
 
@@ -132,7 +132,7 @@ Hyper Text Markup Language
 ```html
 <form action="메뉴" method="GET"> 
 <!--action : 데이터를 보낼 서버의 URL-->
-<!--method : 제출할 때 사용할 HTTP메서드(GRT, POST)-->
+<!--method : 제출할 때 사용할 HTTP메서드(GET, POST)-->
 </form>
 ```
 
@@ -163,8 +163,8 @@ required, readonly, autofocus, autocomplete, disabled 등
 text 일반 텍스트 입력
 password 입력 시 값이 보이지않고 문자를 특수기호(*)로 표현
 email 이메일 형식이 아닌경우 제출불가
-number min, max, step 속성을 이용하여 범위 설정 가능
-file accept 속성을 활용하여 파일 타입 지정 가능
+number 'min, max, step' 속성을 이용하여 범위 설정 가능
+file 'accept' 속성을 활용하여 파일 타입 지정 가능
 ```
 
 - 항목 중 선택
