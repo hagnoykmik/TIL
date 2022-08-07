@@ -39,9 +39,9 @@ js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv
     - blank - all 4 sides
 - {size}
     - 0 - 0
-    - 1 - * .25(rem)
+    - 1 - * .25(rem) (=4px)
     - 2 - * .5
-    - 3 - * 1
+    - 3 - * 1 (=16px)
     - 4 - * 1.5
     - 5 - * 3
     - auto - auto
