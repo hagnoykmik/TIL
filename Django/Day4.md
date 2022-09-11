@@ -161,3 +161,5 @@ def create(request):
 ```
 
 ## Delete
+```python
+```
