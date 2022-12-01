@@ -57,6 +57,7 @@ int result = (int)d;
 - 바이트 크기가 큰 자료형에서 작은 자료형으로 대입하는 경우
 
 ![작은 자료형 → 큰 자료형](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de4c67ec-36c1-4e29-9a2c-b0ddb81f1517/Untitled.png)
+이미지
 
 작은 자료형 → 큰 자료형
 
