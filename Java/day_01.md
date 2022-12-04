@@ -85,7 +85,6 @@ System.out.println((a += 10) < 15 || ~~(b -= 10) > 15)~~;   // true
 System.out.println("a " + a + ", b = " + b);            // a = 20, b = 20    
 ```
 
-# 
 
 ## 조건문
 
